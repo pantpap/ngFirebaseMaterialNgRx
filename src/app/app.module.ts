@@ -13,6 +13,7 @@ import { NewTrainingComponent } from './training/new-training/new-training.compo
 import { PastTrainingComponent } from './training/past-training/past-training.component';
 import { WelcomeComponent } from './welcome/welcome/welcome.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,12 +25,12 @@ import { WelcomeComponent } from './welcome/welcome/welcome.component';
     PastTrainingComponent,
     WelcomeComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MaterialModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MaterialModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
